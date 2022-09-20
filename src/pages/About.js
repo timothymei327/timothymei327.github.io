@@ -154,16 +154,14 @@ const About = () => {
               <li
                 className="reference"
                 onClick={() =>
-                  linkToNewTab('https://www.youtube.com/watch?v=rtGRUO0VdcA')
+                  linkToNewTab('https://www.ea.com/games/apex-legends')
                 }
               >
                 Apex Legends
               </li>
               <li
                 className="reference"
-                onClick={() =>
-                  linkToNewTab('https://www.ea.com/games/apex-legends')
-                }
+                onClick={() => linkToNewTab('https://www.riskofrain.com/')}
               >
                 Risk of Rain 2
               </li>
