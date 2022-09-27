@@ -43,11 +43,11 @@ header {
 .home p {
   width: 18.5em;
   font-size: 20px;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .12em solid darkgray; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
+  overflow: hidden; 
+  border-right: .12em solid darkgray;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
   animation: 
     typing 3.4s steps(40, end),
     blink-caret .75s step-end infinite;
@@ -296,11 +296,10 @@ li {
   margin-top: 200px;
   margin-left: auto;
   margin-right: auto;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .12em solid darkgray; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  /* margin: 0 auto; Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
+  overflow: hidden;
+  border-right: .12em solid darkgray;
+  white-space: nowrap;
+  letter-spacing: .15em;
   animation: 
     typing-2 2.8s steps(40, end),
     blink-caret .75s step-end infinite;
@@ -315,7 +314,6 @@ li {
   animation: fadeIn 3s;
 }
 
-/* The typing effect */
 @keyframes typing {
   from { width: 0 }
   to { width: 18.5em }
@@ -326,7 +324,6 @@ li {
   to { width: 15.5em }
 }
 
-/* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: darkgray; }
