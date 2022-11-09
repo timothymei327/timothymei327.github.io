@@ -26,11 +26,11 @@ const About = () => {
           alt="profile-image"
         />
         <p className="profile-description">
-          Hey there! I am a software engineer with a diverse background ranging
-          from developing interactive browser-based programs to pioneering
-          efforts within the niche community of NYC / four-wall handball. A
-          natural leader with a passionate inclination towards critical
-          thinking, I strive to learn and build creative but effective
+          Hey there! I am a <b>Software Engineer</b> with a diverse background
+          ranging from developing interactive browser-based programs to
+          pioneering efforts within the niche community of NYC / four-wall
+          handball. A natural leader with a passionate inclination towards
+          critical thinking, I strive to learn and build creative but effective
           applications to bridge the gap between functionality and innovation.
         </p>
       </div>
@@ -93,11 +93,11 @@ const About = () => {
         </div>
         <div className="bottom-banner">
           <div className="current">
-            <h3>Current Projects:</h3>
+            <h3>Currently Searching For:</h3>
             <ul>
               <li>
-                Revisiting "TextOne" Project: implement socket.io within a MERN
-                stack
+                Software Engineer roles that challenge me to learn and grow as a
+                developer!
               </li>
             </ul>
           </div>
@@ -165,7 +165,16 @@ const About = () => {
               >
                 Risk of Rain 2
               </li>
-              <li>Solitaire</li>
+              <li
+                className="reference"
+                onClick={() =>
+                  linkToNewTab(
+                    'https://www.google.com/logos/fnbx/solitaire/standalone.html'
+                  )
+                }
+              >
+                Solitaire
+              </li>
             </ul>
             <h4>Cars:</h4>
             <ul>
