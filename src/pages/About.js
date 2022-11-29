@@ -22,7 +22,7 @@ const About = () => {
       <div className="profile-banner">
         <img
           className="profile-image"
-          src="https://media-exp1.licdn.com/dms/image/C4D03AQF5w7lEeeKGfw/profile-displayphoto-shrink_800_800/0/1661888129695?e=1669248000&v=beta&t=h2z9EagncNXQUb5-AqxnN2V70MmfVhzw2U8jxwEJBa0"
+          src="https://avatars.githubusercontent.com/u/107935748?v=4"
           alt="profile-image"
         />
         <p className="profile-description">
