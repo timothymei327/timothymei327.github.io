@@ -119,10 +119,10 @@ const Projects = () => {
       <div className="projects-card">
         <img
           className="thumbnails"
-          src="https://i.imgur.com/7rgAxql.png"
-          alt="textone-thumbnail"
+          src="https://i.imgur.com/2PtSDqR.png"
+          alt="parentsarehuman-thumbnail"
         />
-        <h3>TextOne</h3>
+        <h3>Parents Are Human</h3>
         <div className="icons">
           <div class="icon">
             <SiJavascript />
@@ -133,32 +133,23 @@ const Projects = () => {
             <span class="icontext">React</span>
           </div>
           <div class="icon">
-            <SiMongodb size={19} />
-            <span class="icontext">MongoDB</span>
-          </div>
-          <div class="icon">
-            <SiExpress size={20} />
-            <span class="icontext">ExpressJS</span>
-          </div>
-          <div class="icon">
-            <FaNode size={30} />
-            <span class="icontext">NodeJS</span>
+            <SiCss3 />
+            <span class="icontext">CSS</span>
           </div>
         </div>
         <p className="description">
-          A web application where users can create messages and have a
-          conversation with a bot that returns a random string of messages.
+          A web application that turns the card game 'Parents Are Human' into a playable digital format!
         </p>
         <button
           onClick={() =>
-            linkToNewTab('https://polar-taiga-21134.herokuapp.com/')
+            linkToNewTab('https://parentsarehuman.surge.sh/')
           }
         >
           Demo
         </button>
         <button
           onClick={() =>
-            linkToNewTab('https://github.com/timothymei327/TextOne')
+            linkToNewTab('https://github.com/timothymei327/parents_are_human')
           }
         >
           Github
