@@ -25,7 +25,7 @@ const Contact = () => {
         <button
           onClick={() =>
             linkToNewTab(
-              'https://docs.google.com/document/d/1jCovsmwwXTefPizRRYheQ8tiZ1O0q0VV/edit?usp=sharing&ouid=105188354125357967659&rtpof=true&sd=true'
+              'https://docs.google.com/document/d/1Xuaj6KqF0aMFc1bfLyKILiSvayQ6_qB51I4lYmQ5NJg/edit?usp=sharing'
             )
           }
         >
