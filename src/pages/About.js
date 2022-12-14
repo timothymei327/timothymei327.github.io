@@ -41,7 +41,7 @@ const About = () => {
           <br /> */}
           <div class="icon">
             <SiHtml5 size={19} />
-            <span class="icontext" style={{ width: 70 }}>
+            <span class="icontext" style={{ width: 70, marginLeft: '-35px' }}>
               HTML
             </span>
           </div>
@@ -91,7 +91,7 @@ const About = () => {
           </div>
           <div class="icon">
             <FaGithub size={19} />
-            <span class="icontext" style={{ width: 70 }}>
+            <span class="icontext" style={{ width: 70, marginLeft: '-35px' }}>
               Github
             </span>
           </div>

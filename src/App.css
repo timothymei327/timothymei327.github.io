@@ -156,7 +156,7 @@ button {
   z-index: 1;
   bottom: 150%;
   left: 50%;
-  margin-left: -40px;
+  margin-left: -39px;
 }
 
 .icon .icontext::after {
