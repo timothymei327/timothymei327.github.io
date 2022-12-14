@@ -40,6 +40,13 @@ header {
   animation: fadeIn 2.5s;
 }
 
+.home h2 {
+  text-align: center;
+  margin-top: -4vh;
+  margin-bottom: 3vh;
+  animation: fadeIn 2.5s;
+}
+
 .home p {
   width: 18.5em;
   font-size: 20px;
