@@ -8,10 +8,11 @@ import {
   SiMongodb,
   SiCss3,
   SiHtml5,
-  SiHeroku
+  SiHeroku,
+  SiNodedotjs
 } from 'react-icons/si'
 
-import { FaNode, FaVuejs, FaGithub } from 'react-icons/fa'
+import { FaVuejs, FaGithub } from 'react-icons/fa'
 const About = () => {
   const linkToNewTab = (url) => {
     window.open(url, '_blank', 'noopener,noreferrer')
@@ -71,11 +72,11 @@ const About = () => {
             <span class="icontext">PostgreSQL</span>
           </div>
           <div class="icon">
-            <SiExpress size={25} />
+            <SiExpress size={22} />
             <span class="icontext">ExpressJS</span>
           </div>
           <div class="icon">
-            <FaNode size={35} />
+            <SiNodedotjs size={22} />
             <span class="icontext">NodeJS</span>
           </div>
           <div class="icon">
@@ -88,7 +89,7 @@ const About = () => {
           </div>
           <div class="icon">
             <FaGithub size={19} />
-            <span class="icontext">Git, Github, Version Control</span>
+            <span class="icontext">Github</span>
           </div>
         </div>
         <div className="bottom-banner">

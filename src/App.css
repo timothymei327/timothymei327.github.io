@@ -140,13 +140,13 @@ button {
  }
 
 .icon {
-  position: relative;
+  position:relative;
   display: inline-block;
 }
 
 .icon .icontext {
   visibility: hidden;
-  width: 120px;
+  width: 80px;
   background-color: black;
   color: #fff;
   text-align: center;
@@ -156,7 +156,7 @@ button {
   z-index: 1;
   bottom: 150%;
   left: 50%;
-  margin-left: -60px;
+  margin-left: -40px;
 }
 
 .icon .icontext::after {
