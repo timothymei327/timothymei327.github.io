@@ -91,7 +91,7 @@ const About = () => {
           </div>
           <div class="icon">
             <FaGithub size={19} />
-            <span class="icontext" style={{ width: 70, marginLeft: '-35px' }}>
+            <span class="icontext" style={{ width: 65, marginLeft: '-33px' }}>
               Github
             </span>
           </div>
