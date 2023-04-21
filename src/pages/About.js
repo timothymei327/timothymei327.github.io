@@ -30,12 +30,13 @@ const About = () => {
           alt="profile-image"
         />
         <p className="profile-description">
-          Hey there! I am a <b>Software Engineer</b> with a diverse background
-          ranging from developing interactive browser-based programs to
-          pioneering efforts within the niche community of NYC / four-wall
-          handball. A natural leader with a passionate inclination towards
-          critical thinking, I strive to learn and build creative but effective
-          applications to bridge the gap between functionality and innovation.
+          From self-taught software engineer to General Assembly graduate, I
+          have found my calling in a fulfilling career where my problem-solving
+          and creative thinking skills are utilized every day. My expertise lies
+          in full-stack web development, with a focus on projects that drive
+          positive change. My development philosophy prioritizes testing with a
+          mobile-first approach for frontend applications, while personal
+          projects keep me up-to-date and eager to learn.
         </p>
       </div>
       <main>
