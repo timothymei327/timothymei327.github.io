@@ -1,0 +1,36 @@
+.skills-container {
+  border: 1px solid black;
+  max-width: 570px;
+  max-height: 1200px;
+  margin: 20px auto;
+  padding: 15px;
+  align-items: center;
+}
+
+.skills-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skills-column {
+  flex-basis: calc(50% - 20px);
+  margin-bottom: 40px;
+  padding: 0 10px;
+}
+
+.skills-column h3 {
+  margin-bottom: 20px;
+}
+
+.skills-column ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .skills-column {
+    flex-basis: 100%;
+  }
+}

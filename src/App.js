@@ -1,4 +1,4 @@
-import './App.css'
+import './styles/App.css'
 import Nav from './components/Nav.jsx'
 import Home from './pages/Home.js'
 import Projects from './pages/Projects'

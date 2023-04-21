@@ -6,6 +6,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 15px;
 }
 
 .links {
@@ -34,7 +35,7 @@ header {
 
 
 .home h1 {
-  margin-top: 23vh;
+  margin-top: 15vh;
   font-size: 85px;
   text-align: center;
   animation: fadeIn 2.5s;
@@ -201,63 +202,22 @@ button {
   padding: 10px;
 }
 
-.skills {
-  border: 1px solid black;
-  padding-top: 5px;
-  margin-top: 20px;
-  max-height: 450px;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.resources,
-.interests {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.resources > ul {
-  grid-column-start: 1;
-}
-
-.resources > img {
-  grid-column-start: 2;
-  justify-self: center;
-  margin-top: -20px;
-  border: 3px solid black;
-  height: 100px;
-  width: 180px;
-}
-
-.interests > img {
-  grid-column-start: 2;
-  justify-self: center;
-  align-self: start;
-  margin-top: -280px;
-  margin-bottom: 310px;
-  border: 3px solid black;
-  height: 100px;
-  width: 180px;
-}
-
-.interests > h4,
-.interests > ul {
-  grid-column-start: 1;
-}
-
 ul {
   list-style: none;
   justify-content: left;
 }
 
 li {
-  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
 }
 
-.current,
-.resources,
-.interests {
+svg {
+  padding-right: 8px;
+}
+
+.resources {
   border: 1px solid black;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -267,31 +227,14 @@ li {
   margin-right: auto;
 }
 
-.current > h3,
-.resources > h3,
-.interests > h3,
-.interests > h4 {
+.resources > h3 {
   padding-left: 10px;
   margin-bottom: -5px;
 }
 
-.reference {
-  text-decoration: none;
-  color: black;
-  transition: all .2s ease-in-out; 
-}
-
-.reference:hover {
-  cursor: pointer;
-  color: #7c7478;
-  transform: scale(1.1); 
-}
-
-.contact > h1,
-.contact > h2 {
-  margin-top: 15vh;
-  margin-bottom: -15vh;
-  font-size: 85px;
+.contact > h1 {
+  margin-top: 10vh;
+  font-size: 65px;
   text-align: center;
   animation: fadeIn 2.5s;
 }
@@ -299,7 +242,6 @@ li {
 .contact p {
   width: 15.5em;
   font-size: 20px;
-  margin-top: 200px;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;

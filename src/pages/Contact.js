@@ -6,8 +6,11 @@ const Contact = () => {
   }
   return (
     <div className="contact">
-      <h1>Want to work together?</h1>
-      <h2>Let's get in touch!</h2>
+      <h1>
+        Want to work together?
+        <br />
+        Let's get in touch!
+      </h1>
       <p>timothymei3270@gmail.com</p>
       <div className="contact-buttons">
         <button
