@@ -8,7 +8,9 @@ import {
   SiMongodb,
   SiCss3,
   SiHtml5,
-  SiImgur
+  SiImgur,
+  SiNodedotjs,
+  SiTailwindcss
 } from 'react-icons/si'
 
 import { FaNode } from 'react-icons/fa'
@@ -20,6 +22,48 @@ const Projects = () => {
 
   return (
     <div className="projects-container">
+      <div className="projects-card">
+        <img
+          className="thumbnails"
+          src="https://i.imgur.com/Uw68BKq.png"
+          alt="windbnb-thumbnail"
+        />
+        <h3>unmrkd.</h3>
+        <div className="icons">
+          <div class="icon">
+            <SiMongodb size={20} />
+            <span class="icontext">MongoDB</span>
+          </div>
+          <div class="icon">
+            <SiExpress />
+            <span class="icontext">ExpressJS</span>
+          </div>
+          <div class="icon">
+            <SiReact size={20} />
+            <span class="icontext">React</span>
+          </div>
+          <div class="icon">
+            <SiNodedotjs size={20} />
+            <span class="icontext">NodeJS</span>
+          </div>
+          <div class="icon">
+            <SiTailwindcss size={20} />
+            <span class="icontext">TailwindCSS</span>
+          </div>
+        </div>
+        <p className="description">
+          Discover Windbnb, the affordable and user-friendly Airbnb clone,
+          offering a diverse range of unique accommodations around the world!
+        </p>
+        <button
+          onClick={() =>
+            linkToNewTab('https://github.com/timothymei327/windbnb')
+          }
+        >
+          Github
+        </button>
+      </div>
+
       <div className="projects-card">
         <img
           className="thumbnails"
@@ -54,9 +98,6 @@ const Projects = () => {
           their topic of interest, post, and comment all while staying
           anonymous.
         </p>
-        <button onClick={() => linkToNewTab('https://unmrkd.herokuapp.com/')}>
-          Demo
-        </button>
         <button
           onClick={() =>
             linkToNewTab('https://github.com/timothymei327/unmrkd')
@@ -102,13 +143,6 @@ const Projects = () => {
         </p>
         <button
           onClick={() =>
-            linkToNewTab('https://tranquil-bayou-44069.herokuapp.com/')
-          }
-        >
-          Demo
-        </button>
-        <button
-          onClick={() =>
             linkToNewTab('https://github.com/timothymei327/TextOne')
           }
         >
@@ -138,12 +172,11 @@ const Projects = () => {
           </div>
         </div>
         <p className="description">
-          A web application that turns the card game 'Parents Are Human' into a playable digital format!
+          A web application that turns the card game 'Parents Are Human' into a
+          playable digital format!
         </p>
         <button
-          onClick={() =>
-            linkToNewTab('https://parentsarehuman.surge.sh/')
-          }
+          onClick={() => linkToNewTab('https://parentsarehuman.surge.sh/')}
         >
           Demo
         </button>

@@ -83,6 +83,7 @@ header {
 
 .projects-card img {
   border: 1px solid black;
+  object-fit: cover;
 }
 
 .projects-card:hover{ 
