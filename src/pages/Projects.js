@@ -28,7 +28,7 @@ const Projects = () => {
           src="https://i.imgur.com/Uw68BKq.png"
           alt="windbnb-thumbnail"
         />
-        <h3>unmrkd.</h3>
+        <h3>Windbnb</h3>
         <div className="icons">
           <div class="icon">
             <SiMongodb size={20} />
